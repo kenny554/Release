@@ -25,4 +25,8 @@ public class Celular {
         this.numero = numero;
     }
 
+    public String toString() {
+        return "Modelo: " + modelo + ", Numero: " + numero;
+    }
+
 }
